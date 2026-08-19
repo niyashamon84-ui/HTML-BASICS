@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DIV, CLASS and ID</title>
+
+    <style>
+
+        /* Styling the main container */
+        .container {
+            width: 500px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: lightblue;
+            border: 2px solid blue;
+            text-align: center;
+        }
+
+        /* Styling all student divs */
+        .student {
+            background-color: white;
+            margin: 15px;
+            padding: 15px;
+            border: 1px solid gray;
+        }
+
+        /* Styling one specific student */
+        #special {
+            background-color: lightgreen;
+            border: 2px solid green;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Main DIV -->
+    <div class="container">
+
+        <h1>Student Information</h1>
+
+        <!-- DIV with CLASS -->
+        <div class="student">
+            <h2>Student 1</h2>
+            <p>Name: Niya</p>
+            <p>Course: B.Tech</p>
+        </div>
+
+        <!-- DIV with CLASS and ID -->
+        <div class="student" id="special">
+            <h2>Student 2</h2>
+            <p>Name: Anna</p>
+            <p>Course: BCA</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
